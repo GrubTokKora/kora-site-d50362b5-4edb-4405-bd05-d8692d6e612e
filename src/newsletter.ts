@@ -56,7 +56,7 @@ export async function subscribeToNewsletter(
     source: 'dynamic_website_widget',
   }
 
-  const resp = await fetch(`https://kora-agent.quseappdev.com/api/public/newsletter/subscribe`, {
+  const resp = await fetch(`https://kora-agent.quseappdev.com/api/v1/public/newsletter/subscribe`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
