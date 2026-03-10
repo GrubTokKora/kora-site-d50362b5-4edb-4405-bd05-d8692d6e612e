@@ -14,14 +14,14 @@ const businessDetails = {
   address: "SF - 090, First floor, Galleria Market, Sector 28, DLF Phase IV, Gurugram, Haryana 122009, India",
   events: [
     {
-      id: "e0e09690-caeb-450b-b6d7-1cc519403287",
-      title: "Grotto's Birthday Bash!",
-      short_description: "It's our birthday, and you're invited! Join us at Grotto in Kalol for a special celebration with treats on us.",
-      full_description: "We're celebrating another fantastic year, and we couldn't have done it without you! Come and join the Grotto family for our official birthday party at our Kalol location.\n\nTo thank our wonderful community for all the support, we're offering a special treat. Enjoy a complimentary dessert with any pizza purchase all evening long as our way of saying thank you.\n\nExpect a festive atmosphere, great music, and the delicious food and coffee you know and love. It's the perfect opportunity to gather with friends and family and share in the celebration.\n\nMark your calendars and don't miss out on the fun. We can't wait to celebrate with you!",
-      start_datetime: "2025-03-12T18:00:00+00:00",
+      id: "196432ec-1455-41b5-831d-c428a8491e26",
+      title: "Dandiya Raas Celebration at Grotto",
+      short_description: "Join us for a vibrant afternoon of traditional Dandiya Raas! Dance to festive beats and enjoy our signature pizzas and coffee in a lively atmosphere.",
+      full_description: "Celebrate with us at Grotto's Dandiya Raas event! Immerse yourself in the joyous and energetic tradition of this beautiful folk dance. Whether you're a seasoned dancer or a first-timer, everyone is invited to join in the fun.\n\nWe'll have lively, traditional music to get you moving and create an unforgettable festive atmosphere. Don't have your own dandiya sticks? No problem! We'll have some available for you to use.\n\nFuel your dancing with our delicious wood-fired pizzas, specialty coffees, and other treats from our menu. It's the perfect way to spend an afternoon filled with culture, community, and great food.\n\nGather your friends and family and come dressed in your festive best. Let's make it a day to remember at Grotto!",
+      start_datetime: "2027-02-14T12:00:00+00:00",
       end_datetime: null,
-      location_text: "Grotto - Kalol",
-      category: "Celebration",
+      location_text: "Grotto - Pizzeria|Coffee Shop",
+      category: "Cultural Celebration",
     }
   ] as Event[]
 };
