@@ -14,14 +14,14 @@ const businessDetails = {
   address: "SF - 090, First floor, Galleria Market, Sector 28, DLF Phase IV, Gurugram, Haryana 122009, India",
   events: [
     {
-      id: "196432ec-1455-41b5-831d-c428a8491e26",
-      title: "Dandiya Raas Celebration at Grotto",
-      short_description: "Join us for a vibrant afternoon of traditional Dandiya Raas! Dance to festive beats and enjoy our signature pizzas and coffee in a lively atmosphere.",
-      full_description: "Celebrate with us at Grotto's Dandiya Raas event! Immerse yourself in the joyous and energetic tradition of this beautiful folk dance. Whether you're a seasoned dancer or a first-timer, everyone is invited to join in the fun.\n\nWe'll have lively, traditional music to get you moving and create an unforgettable festive atmosphere. Don't have your own dandiya sticks? No problem! We'll have some available for you to use.\n\nFuel your dancing with our delicious wood-fired pizzas, specialty coffees, and other treats from our menu. It's the perfect way to spend an afternoon filled with culture, community, and great food.\n\nGather your friends and family and come dressed in your festive best. Let's make it a day to remember at Grotto!",
-      start_datetime: "2027-02-14T12:00:00+00:00",
+      id: "c6ac08b9-89fb-4b02-a9c5-db957a843896",
+      title: "Grotto's Grand Dandiya Night",
+      short_description: "Join us for a vibrant night of traditional Dandiya Raas! Dance to festive beats, enjoy delicious food, and celebrate the season in style at our Langhnaj location.",
+      full_description: "Get ready to twirl and dance the night away! Grotto invites you to a spectacular Dandiya Night celebration, filling our space with the vibrant energy and joyous rhythms of the festive season.\n\nImmerse yourself in the celebration as our DJ spins the best traditional Garba and Dandiya tracks. Whether you're a seasoned dancer or a beginner, grab your dandiya sticks and join the fun on the dance floor. It's all about celebrating together!\n\nFuel your dance moves with our delicious menu. Enjoy our famous wood-fired pizzas, specialty coffees, and other delightful treats available throughout the evening. It's the perfect combination of festive fun and fantastic food.\n\nDress in your festive best and bring your friends and family for an unforgettable night of music, dance, and community. Let's make this a night to remember at Grotto!",
+      start_datetime: "2026-10-10T22:00:00+00:00",
       end_datetime: null,
-      location_text: "Grotto - Pizzeria|Coffee Shop",
-      category: "Cultural Celebration",
+      location_text: "Grotto - Langhnaj",
+      category: "Festival",
     }
   ] as Event[]
 };
