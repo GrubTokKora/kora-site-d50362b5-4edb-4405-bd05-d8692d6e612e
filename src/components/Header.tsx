@@ -23,6 +23,7 @@ function Header({ businessName }: HeaderProps) {
           <ul className="nav-menu">
             <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
             <li className="nav-item"><a href="#menu" className="nav-link">Menu</a></li>
+            <li className="nav-item"><a href="#events" className="nav-link">Events</a></li>
             <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
           </ul>
         </nav>

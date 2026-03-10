@@ -219,6 +219,8 @@ a:hover {
   font-size: 0.9rem;
 }
 
+
+
 /* Contact Section */
 .contact {
   background-color: var(--surface-color);
@@ -304,4 +306,50 @@ a:hover {
   .menu-grid, .contact-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Events Section */
+.events {
+  background-color: var(--background-color);
+}
+
+.events-list {
+  display: grid;
+  gap: 40px;
+}
+
+.event-card {
+  background-color: var(--surface-color);
+  padding: 30px;
+  border-radius: 5px;
+  border-left: 5px solid var(--primary-color);
+}
+
+.event-card h3 {
+  color: var(--primary-color);
+}
+
+.event-card p:last-child {
+  margin-bottom: 0;
+}
+
+.event-details {
+  margin: 15px 0;
+  padding: 15px;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+.event-details p {
+  margin-bottom: 5px;
+  color: #e0e0e0;
+}
+
+.event-details p:last-child {
+  margin-bottom: 0;
+}
+
+.event-details strong {
+  color: var(--primary-color);
+  margin-right: 10px;
 }
