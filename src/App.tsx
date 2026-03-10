@@ -14,14 +14,14 @@ const businessDetails = {
   address: "SF - 090, First floor, Galleria Market, Sector 28, DLF Phase IV, Gurugram, Haryana 122009, India",
   events: [
     {
-      id: "c6ac08b9-89fb-4b02-a9c5-db957a843896",
-      title: "Grotto's Grand Dandiya Night",
-      short_description: "Join us for a vibrant night of traditional Dandiya Raas! Dance to festive beats, enjoy delicious food, and celebrate the season in style at our Langhnaj location.",
-      full_description: "Get ready to twirl and dance the night away! Grotto invites you to a spectacular Dandiya Night celebration, filling our space with the vibrant energy and joyous rhythms of the festive season.\n\nImmerse yourself in the celebration as our DJ spins the best traditional Garba and Dandiya tracks. Whether you're a seasoned dancer or a beginner, grab your dandiya sticks and join the fun on the dance floor. It's all about celebrating together!\n\nFuel your dance moves with our delicious menu. Enjoy our famous wood-fired pizzas, specialty coffees, and other delightful treats available throughout the evening. It's the perfect combination of festive fun and fantastic food.\n\nDress in your festive best and bring your friends and family for an unforgettable night of music, dance, and community. Let's make this a night to remember at Grotto!",
-      start_datetime: "2026-10-10T22:00:00+00:00",
+      id: "1251e65d-c0c7-4efb-96ed-74f670120d50",
+      title: "A Special Night at Grotto",
+      short_description: "Join us at Grotto in Kalol for a truly special night! Experience an unforgettable evening with our finest pizzas, aromatic coffees, and a magical ambiance.",
+      full_description: "Mark your calendars for an evening of delight at Grotto! We're transforming our Kalol location into a haven of culinary excellence and cozy vibes for one special night only.\n\nIndulge in our signature wood-fired pizzas, crafted with the freshest ingredients, or sip on our expertly brewed coffees and specialty drinks. Our chefs are preparing some exclusive menu items just for this event, promising a treat for your taste buds.\n\nWhether you're looking for a romantic dinner, a memorable night out with friends, or simply a chance to unwind, our special night offers the perfect setting. Enjoy the warm, inviting atmosphere that makes Grotto a beloved spot in Kalol.\n\nReservations are highly recommended as space is limited. We can't wait to welcome you!",
+      start_datetime: "2026-04-13T19:00:00+00:00",
       end_datetime: null,
-      location_text: "Grotto - Langhnaj",
-      category: "Festival",
+      location_text: "Grotto, Kalol",
+      category: "Dining",
     }
   ] as Event[]
 };
