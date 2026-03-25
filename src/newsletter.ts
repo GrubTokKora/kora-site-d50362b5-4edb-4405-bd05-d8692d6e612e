@@ -20,8 +20,9 @@ export type NewsletterSubscribeResult = {
   channels?: string[]
 }
 
-// Base URL for the public API. Hardcoded to dev environment for now.
-// const API_BASE_URL = 'https://kora-agent.quseappdev.com/api'
+const getApiBaseUrl = (): string => {
+  return window.KORA_CONFIG?.apiBaseUrl || 'https://kora-agent.grubtok.com';
+};
 
 export async function subscribeToNewsletter(
   payload: NewsletterSubscribePayload,
@@ -56,7 +57,8 @@ export async function subscribeToNewsletter(
     source: 'dynamic_website_widget',
   }
 
-  const resp = await fetch(`http://localhost:3000/api/v1/public/newsletter/subscribe`, {
+  const apiBaseUrl = getApiBaseUrl();
+  const resp = await fetch(`${apiBaseUrl}/api/v1/public/newsletter/subscribe`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

@@ -353,3 +353,140 @@ a:hover {
   color: var(--primary-color);
   margin-right: 10px;
 }
+
+/* Voice Agent Widget */
+.voice-widget-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out, background-color 0.2s;
+  z-index: 1001;
+}
+
+.voice-widget-fab:hover {
+  transform: scale(1.1);
+  background-color: #d46a4d;
+}
+
+.voice-widget-fab svg {
+  width: 28px;
+  height: 28px;
+}
+
+.voice-widget-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.voice-widget-modal-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.voice-widget-modal {
+  background-color: var(--surface-color);
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  height: 70vh;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.voice-widget-modal-overlay.open .voice-widget-modal {
+  transform: scale(1);
+}
+
+.voice-widget-header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.voice-widget-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.voice-widget-close-btn {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.voice-widget-transcript {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.voice-widget-transcript p {
+  margin-bottom: 10px;
+}
+
+.voice-widget-footer {
+  padding: 20px;
+  border-top: 1px solid #444;
+  text-align: center;
+}
+
+.voice-widget-status {
+  min-height: 24px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.voice-widget-mic-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.voice-widget-mic-btn.active {
+  background-color: #e63946; /* A red color for active session */
+}
+
+.voice-widget-mic-btn svg {
+  width: 32px;
+  height: 32px;
+}

@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import VoiceAgentWidget from './components/VoiceAgentWidget';
 import type { Event } from './components/Events';
 
 const BUSINESS_ID = "d50362b5-4edb-4405-bd05-d8692d6e612e";
@@ -38,6 +39,7 @@ function App() {
         <Contact address={businessDetails.address} businessId={BUSINESS_ID} />
       </main>
       <Footer businessName={businessDetails.name} />
+      <VoiceAgentWidget businessId={BUSINESS_ID} />
     </>
   );
 }

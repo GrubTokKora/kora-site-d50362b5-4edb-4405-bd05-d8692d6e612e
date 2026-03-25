@@ -12,10 +12,19 @@ const BUSINESS_ID =
 declare global {
   interface Window {
     KORA_SITE?: {
-      businessId: string
-    }
-    }
+      businessId: string;
+    };
+    KORA_CONFIG?: {
+      apiBaseUrl?: string;
+      features?: {
+        voice?: {
+          enabled?: boolean;
+          provider?: string;
+        };
+      };
+    };
   }
+}
 
 // Expose stable globals for any runtime code that needs them.
 // The backend is responsible for ensuring window.KORA_CONFIG.apiBaseUrl is set
