@@ -8,6 +8,9 @@ export type Event = {
   end_datetime: string | null;
   category: string | null;
   location_text?: string | null;
+  ticket_url?: string | null;
+  slug?: string | null;
+  hero_image_url?: string | null;
 };
 
 type EventsProps = {
@@ -57,6 +60,13 @@ function Events({ events }: EventsProps) {
               {(event.full_description || event.short_description)?.split('\n').map((paragraph, index) => (
                 paragraph && <p key={index}>{paragraph}</p>
               ))}
+              {event.ticket_url && (
+                <div style={{ marginTop: '20px' }}>
+                  <a href={event.ticket_url} className="btn" target="_blank" rel="noopener noreferrer">
+                    Register Now
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>
